@@ -52,11 +52,11 @@ spring:
   # Spring AI - 改为硅基流动平台 (OpenAI兼容模式)
   ai:
     openai:
-      base-url: https://api.siliconflow.cn/v1
+      base-url: https://api.siliconflow.cn
       api-key: ${AI_BAILIAN_API_KEY}
       chat:
         options:
-          model: ${AI_MODEL:MiniMax-M2.5}
+          model: ${AI_MODEL:Pro/MiniMaxAI/MiniMax-M2.5}
           temperature: 0.2
       # Embedding模型配置 - 使用text-embedding-v3
       embedding:
