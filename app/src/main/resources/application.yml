@@ -61,7 +61,7 @@ spring:
       # Embedding模型配置 - 使用text-embedding-v3
       embedding:
         options:
-          model: text-embedding-v3
+          model: Pro/BAAI/bge-m3
     # 禁用自动重试机制，让异常立即返回
     retry:
       max-attempts: 1  # 不重试，失败立即返回
